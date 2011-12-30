@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/Beacon/!svn/ver/635/trunk/src/data/characters
+END
+axe.png
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/Beacon/!svn/ver/577/trunk/src/data/characters/axe.png
+END
+EventChar.as
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/Beacon/!svn/ver/432/trunk/src/data/characters/EventChar.as
+END
+life_bottle.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/Beacon/!svn/ver/631/trunk/src/data/characters/life_bottle.txt
+END
+IPeCharacteraData.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/Beacon/!svn/ver/432/trunk/src/data/characters/IPeCharacteraData.as
+END
+axe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/Beacon/!svn/ver/577/trunk/src/data/characters/axe.txt
+END
+life_bottle.png
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/Beacon/!svn/ver/616/trunk/src/data/characters/life_bottle.png
+END
+PeCharFactory.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/Beacon/!svn/ver/635/trunk/src/data/characters/PeCharFactory.as
+END

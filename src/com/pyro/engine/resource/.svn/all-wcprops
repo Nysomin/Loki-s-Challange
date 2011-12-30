@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/Beacon/!svn/ver/436/trunk/src/com/pyro/engine/resource
+END
+BaseResourceProvider.as
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/Beacon/!svn/ver/432/trunk/src/com/pyro/engine/resource/BaseResourceProvider.as
+END
+PeResourceEvent.as
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/Beacon/!svn/ver/432/trunk/src/com/pyro/engine/resource/PeResourceEvent.as
+END
+PeImageResource.as
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/Beacon/!svn/ver/436/trunk/src/com/pyro/engine/resource/PeImageResource.as
+END
+IResource.as
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/Beacon/!svn/ver/432/trunk/src/com/pyro/engine/resource/IResource.as
+END
+PeSoundResource.as
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/Beacon/!svn/ver/432/trunk/src/com/pyro/engine/resource/PeSoundResource.as
+END
+PeResourceManager.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/Beacon/!svn/ver/432/trunk/src/com/pyro/engine/resource/PeResourceManager.as
+END
+EmbeddedResourceProvider.as
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/Beacon/!svn/ver/432/trunk/src/com/pyro/engine/resource/EmbeddedResourceProvider.as
+END
+PeResource.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/Beacon/!svn/ver/432/trunk/src/com/pyro/engine/resource/PeResource.as
+END

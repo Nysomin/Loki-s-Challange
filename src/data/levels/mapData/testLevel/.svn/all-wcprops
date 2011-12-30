@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/Beacon/!svn/ver/432/trunk/src/data/levels/mapData/testLevel
+END
+rock.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/Beacon/!svn/ver/432/trunk/src/data/levels/mapData/testLevel/rock.png
+END
+testsheet.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/Beacon/!svn/ver/432/trunk/src/data/levels/mapData/testLevel/testsheet.png
+END
+clouds.png
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/Beacon/!svn/ver/432/trunk/src/data/levels/mapData/testLevel/clouds.png
+END
+testmap.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/Beacon/!svn/ver/432/trunk/src/data/levels/mapData/testLevel/testmap.xml
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/Beacon/!svn/ver/612/trunk/src/com/pyro/engine/gfx2d/sprites
+END
+SpriteLoader.as
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/Beacon/!svn/ver/432/trunk/src/com/pyro/engine/gfx2d/sprites/SpriteLoader.as
+END
+SpriteSheet.as
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/Beacon/!svn/ver/432/trunk/src/com/pyro/engine/gfx2d/sprites/SpriteSheet.as
+END
+SpriteArray.as
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/Beacon/!svn/ver/432/trunk/src/com/pyro/engine/gfx2d/sprites/SpriteArray.as
+END
+PeBlitter.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/Beacon/!svn/ver/510/trunk/src/com/pyro/engine/gfx2d/sprites/PeBlitter.as
+END
+PeSprite.as
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/Beacon/!svn/ver/612/trunk/src/com/pyro/engine/gfx2d/sprites/PeSprite.as
+END

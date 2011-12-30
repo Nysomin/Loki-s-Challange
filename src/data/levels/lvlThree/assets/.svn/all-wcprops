@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/Beacon/!svn/ver/650/trunk/src/data/levels/lvlThree/assets
+END
+water.png
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/Beacon/!svn/ver/609/trunk/src/data/levels/lvlThree/assets/water.png
+END
+boattile.png
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/Beacon/!svn/ver/609/trunk/src/data/levels/lvlThree/assets/boattile.png
+END
+lvlthree.tide
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/Beacon/!svn/ver/650/trunk/src/data/levels/lvlThree/assets/lvlthree.tide
+END
+spawn.png
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/Beacon/!svn/ver/609/trunk/src/data/levels/lvlThree/assets/spawn.png
+END
+ocean-sky.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/Beacon/!svn/ver/609/trunk/src/data/levels/lvlThree/assets/ocean-sky.png
+END

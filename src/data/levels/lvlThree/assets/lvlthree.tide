@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Map Id="Untitled">
+  <Description><![CDATA[]]></Description>
+  <TileSheets>
+    <TileSheet Id="boat">
+      <Description><![CDATA[]]></Description>
+      <ImageSource><![CDATA[boattile.png]]></ImageSource>
+      <Alignment SheetSize="3 x 1" TileSize="500 x 300" Margin="0 x 0" Spacing="0 x 0" />
+      <Properties />
+    </TileSheet>
+    <TileSheet Id="sky">
+      <Description><![CDATA[]]></Description>
+      <ImageSource><![CDATA[ocean-sky.png]]></ImageSource>
+      <Alignment SheetSize="4 x 1" TileSize="400 x 300" Margin="0 x 0" Spacing="0 x 0" />
+      <Properties />
+    </TileSheet>
+    <TileSheet Id="spawn">
+      <Description><![CDATA[]]></Description>
+      <ImageSource><![CDATA[spawn.png]]></ImageSource>
+      <Alignment SheetSize="2 x 2" TileSize="50 x 50" Margin="0 x 0" Spacing="0 x 0" />
+      <Properties />
+    </TileSheet>
+    <TileSheet Id="water">
+      <Description><![CDATA[]]></Description>
+      <ImageSource><![CDATA[water.png]]></ImageSource>
+      <Alignment SheetSize="4 x 3" TileSize="250 x 150" Margin="0 x 0" Spacing="0 x 0" />
+      <Properties />
+    </TileSheet>
+  </TileSheets>
+  <Layers>
+    <Layer Id="sky" Visible="True">
+      <Description><![CDATA[]]></Description>
+      <Dimensions LayerSize="2 x 2" TileSize="400 x 300" />
+      <TileArray>
+        <Row>
+          <TileSheet Ref="sky" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+        </Row>
+        <Row>
+          <Null Count="2" />
+        </Row>
+      </TileArray>
+      <Properties />
+    </Layer>
+    <Layer Id="farwater" Visible="True">
+      <Description><![CDATA[]]></Description>
+      <Dimensions LayerSize="4 x 4" TileSize="250 x 150" />
+      <TileArray>
+        <Row>
+          <Null Count="4" />
+        </Row>
+        <Row>
+          <TileSheet Ref="water" />
+          <Static Index="8" BlendMode="Alpha" />
+          <Static Index="9" BlendMode="Alpha" />
+          <Static Index="10" BlendMode="Alpha" />
+          <Static Index="11" BlendMode="Alpha" />
+        </Row>
+        <Row>
+          <Null Count="4" />
+        </Row>
+        <Row>
+          <Null Count="4" />
+        </Row>
+      </TileArray>
+      <Properties />
+    </Layer>
+    <Layer Id="midwater" Visible="True">
+      <Description><![CDATA[]]></Description>
+      <Dimensions LayerSize="5 x 4" TileSize="250 x 150" />
+      <TileArray>
+        <Row>
+          <Null Count="5" />
+        </Row>
+        <Row>
+          <TileSheet Ref="water" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="3" BlendMode="Alpha" />
+          <Static Index="0" BlendMode="Alpha" />
+        </Row>
+        <Row>
+          <Static Index="4" BlendMode="Alpha" />
+          <Static Index="5" BlendMode="Alpha" />
+          <Static Index="6" BlendMode="Alpha" />
+          <Static Index="7" BlendMode="Alpha" />
+          <Static Index="4" BlendMode="Alpha" />
+        </Row>
+        <Row>
+          <Null Count="5" />
+        </Row>
+      </TileArray>
+      <Properties />
+    </Layer>
+    <Layer Id="boat" Visible="True">
+      <Description><![CDATA[]]></Description>
+      <Dimensions LayerSize="3 x 2" TileSize="500 x 300" />
+      <TileArray>
+        <Row>
+          <Null Count="3" />
+        </Row>
+        <Row>
+          <TileSheet Ref="boat" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+        </Row>
+      </TileArray>
+      <Properties />
+    </Layer>
+    <Layer Id="playerspawn" Visible="True">
+      <Description><![CDATA[]]></Description>
+      <Dimensions LayerSize="16 x 12" TileSize="50 x 50" />
+      <TileArray>
+        <Row>
+          <Null Count="16" />
+        </Row>
+        <Row>
+          <Null Count="16" />
+        </Row>
+        <Row>
+          <Null Count="16" />
+        </Row>
+        <Row>
+          <Null Count="16" />
+        </Row>
+        <Row>
+          <Null Count="16" />
+        </Row>
+        <Row>
+          <Null Count="16" />
+        </Row>
+        <Row>
+          <Null Count="16" />
+        </Row>
+        <Row>
+          <Null Count="16" />
+        </Row>
+        <Row>
+          <Null Count="16" />
+        </Row>
+        <Row>
+          <Null Count="16" />
+        </Row>
+        <Row>
+          <Null Count="4" />
+          <TileSheet Ref="spawn" />
+          <Static Index="0" BlendMode="Alpha" />
+          <Null Count="11" />
+        </Row>
+        <Row>
+          <Null Count="16" />
+        </Row>
+      </TileArray>
+      <Properties />
+    </Layer>
+    <Layer Id="monsterspawn" Visible="True">
+      <Description><![CDATA[]]></Description>
+      <Dimensions LayerSize="30 x 12" TileSize="50 x 50" />
+      <TileArray>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="30" />
+        </Row>
+        <Row>
+          <Null Count="5" />
+          <TileSheet Ref="spawn" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Null Count="2" />
+        </Row>
+        <Row>
+          <Null Count="26" />
+          <Static Index="3" BlendMode="Alpha" />
+          <Null Count="3" />
+        </Row>
+        <Row>
+          <Null Count="5" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Static Index="1" BlendMode="Alpha" />
+          <Static Index="2" BlendMode="Alpha" />
+          <Null Count="2" />
+        </Row>
+      </TileArray>
+      <Properties />
+    </Layer>
+  </Layers>
+  <Properties />
+</Map>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/Beacon/!svn/ver/631/trunk/src/com/pyro/engine/ai
+END
+AIController.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/Beacon/!svn/ver/612/trunk/src/com/pyro/engine/ai/AIController.as
+END
+PeArcherAI.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/Beacon/!svn/ver/631/trunk/src/com/pyro/engine/ai/PeArcherAI.as
+END
+PeWeaponMasterAI.as
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/Beacon/!svn/ver/573/trunk/src/com/pyro/engine/ai/PeWeaponMasterAI.as
+END
+PeMonsterAI.as
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/Beacon/!svn/ver/612/trunk/src/com/pyro/engine/ai/PeMonsterAI.as
+END
